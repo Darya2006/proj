@@ -1,0 +1,22 @@
+@media screen and (max-width: 1399px){
+    .carta .cartaBlock .info-block{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .carta .cartaBlock .info-block .item{
+        grid-row: span 1;
+        height: 350px;
+    }
+    .carta .cartaBlock .info-block .itemCarta {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 995px){
+.aboutUs .aboutUsBlock .info-block .item{
+    font-size: 12px;
+}
+.aboutUs .aboutUsBlock .info-block .item .imgBlock img{
+    width: 125%;
+}
+
+}
